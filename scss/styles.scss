@@ -1,0 +1,256 @@
+
+/* VARIABLES */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Roboto:wght@300&display=swap');
+
+
+body{
+    background-color: black;
+    font-size: 16px;
+}
+
+/* LOGO DEL NAVBAR BOOTSTRAP*/
+.logo{
+    cursor: pointer
+}
+.logo:hover{
+    transform: scale(1.2);
+    transition: all 0.3s
+}
+
+/* NAVBAR  BOOTSTRAP*/
+
+.nav-link button{
+    background-color: red;
+    margin-left: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 9px 25px;
+    background: rgba(189, 3, 3, 0.884);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.nav-link button:hover{
+    background-color: white;
+    transform: scale(1.1);
+    color: black;
+}
+
+.nav-link-carro button{
+    background-color: red;
+    color: black;
+    padding: 9px 15px;
+    background: yellow;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.nav-link-carro button:hover{
+    background-color: white;
+    transform: scale(1.1);
+    color: black;
+}
+
+/* INDEX */
+/* LOGO PAGINA INICIO */
+.container-img .img-fluid{
+    margin-top: 78px;
+    width: 800px;
+}
+
+.col-5 .img-fluid{
+    margin-bottom: 30px;
+    margin-left: 115px;
+}
+
+.texto{
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+h2{
+    color: white;
+}
+
+
+/* GALERIA */
+
+
+
+.card-body1{
+    background-color: black;
+    height: 200px;
+
+}
+
+.card-body1:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+h1{
+    color: white;
+}
+
+
+
+/* DISCOGRAFIA */
+h3{
+    color: white;
+    margin-left: 20px;
+}
+
+.clasep{
+    color: rgb(190, 0, 0);
+    cursor: pointer;
+    border: 1px solid;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.clasep:hover{
+    transform: scale(1.8);
+    transition: all 0.3s;
+}
+
+iframe{
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.boton{
+    border-radius: 15px;
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* TOUR */
+ul .paises{
+    color: rgb(190, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-type: none
+}
+
+li{
+    color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-type: none
+}
+
+/* SHOP */
+/* CARDS */
+.text-justify{
+    text-align: justify;
+    color: white;
+}
+
+.display-3{
+    color: white;
+}
+
+.card:hover{
+    opacity: 0.9;
+}
+
+.card-body{
+    background-color: lightgrey;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+
+.nav-link{
+    font-weight: 600;
+}
+
+#txtComment{
+    resize: none;
+}
+
+@media (max-width: 576px){
+    .card-text{
+        font-size: 0.8rem;
+    }
+}
+
+/* CONTACTO */
+.textos{
+    color: white;
+}
+
+.micro{
+    position: absolute;
+    bottom:30px;
+    left: 50px;
+    width: 20%;
+}
+
+.text-center{
+    color: white;
+}
+
+
+
+/* FOOTER */
+/* .footer{
+    background-color: grey;
+    padding: 0px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    height: 60px;
+}
+.footer-row{
+    display: flex;
+}
+.footer-links{
+    width: 200%;
+    padding: 0 15px;
+    margin-top: 7px;
+}
+.footer-links ul li a{
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+    transition: all.3s ease;
+}
+.social-link a{
+display: inline-block;
+min-height: 1px;
+width: 50px;
+background-color: grey;
+margin: 10 10px 10px 10;
+text-align: center;
+line-height: 40px;
+border-radius: 60%;
+border-style: solid;
+color: black;
+transition: all.5s ease;
+margin-right: 10px;
+}
+.social-link a:hover{
+    background-color: white;
+    transform: scale(1.2);
+    transition: all 0.5s
+} */
