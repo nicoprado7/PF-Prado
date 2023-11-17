@@ -57,10 +57,12 @@
     }
 }
   
+
+
   /* INDEX */
 /* LOGO PAGINA INICIO */
 .container-img .img-fluid {
-    margin-top: 85px;
+    margin-top: 120px;
     width: 800px;
   }
   
@@ -72,18 +74,23 @@
   .texto {
     color: white;
     margin-bottom: 60px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   
   h2 {
     color: white;
   }
   
+
+
+
+
   /* GALERIA */
 .card-body1 {
-     background-color: $color-primary;
+     background-color: rgba(0, 0, 0, 0);
      height: 200px;
-
+     border-radius: 20px;
+    
     &:hover {
     transform: scale(1.1);
     transition: all 0.3s;
@@ -94,10 +101,26 @@ h1 {
   color: white;
 }
 
+
+
+
+
+
+
 /* DISCOGRAFIA */
 h3 {
     color: white;
     margin-left: 20px;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 15px;
+    background-color: rgba(128, 0, 0, 0.63);
+    width: 180px;
+    text-align: center;
+
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.5s;
+     }
   }
   
   .clasep {
@@ -121,6 +144,7 @@ h3 {
     margin-bottom: 100px;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 20px;
   }
   
   .boton {
@@ -131,6 +155,14 @@ h3 {
     text-decoration: none;
     font-size: 12px;
   }
+
+
+
+
+
+
+  
+
 
   /* TOUR */
 ul .paises {
@@ -149,6 +181,11 @@ ul .paises {
     list-style-type: none;
   }
   
+
+
+
+
+
 
   /* SHOP */
 /* CARDS */

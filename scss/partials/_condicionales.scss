@@ -1,15 +1,28 @@
-$temporada:"otoño";
+$temporada:"";
 
 /* condicionales */
 
 @if ($temporada == "verano"){
     body{
         background-image: url("../assets/verano.jpg");
-        background-size: cover;
+        background-position: cover;
     .texto{
         color: black;
         font-weight: bold;
     }
+    .clasep{
+        color: black;
+        font-weight: bold;
+    }
+    ul .paises{
+        color: black;
+        font-weight: bold;
+    
+    }
+    li {
+        color: black;}
+
+    
     }
 
 }@else if($temporada =="otoño"){
@@ -20,6 +33,7 @@ $temporada:"otoño";
             color: black;
             font-weight: bold;
         }  
+        
     .clasep{
         color: black;
         font-weight: bold;
@@ -39,19 +53,53 @@ $temporada:"otoño";
 }@else if($temporada =="invierno"){
     body{
         background-image: url("../assets/invierno.jpg");
-        background-size: cover;
+        background-position: cover;
+        .texto{
+          
+            font-weight: bold;
+        }  
+    .clasep{
+        color: white;
+        font-weight: bold;
+    }
+    ul .paises{
+        color: white;
+        font-weight: bold;
+    
+    }
+    li {
+        color: white;}
+    
     }
 
 }@else if($temporada =="primavera"){
     body{
         background-image: url("../assets/primavera.jpg");
         background-size: cover;
+        .texto{
+            color: white;
+            font-weight: bold;
+        }  
+        
+    .clasep{
+        color: black;
+        font-weight: bold;
+    }
+    ul .paises{
+        color: black;
+        font-weight: bold;
+    
+    }
+    li {
+        color: black;}
     }
     
 }@else{
     body{
         background-image: url("../assets/fondoblack.jpg");
-        background-size: cover;
+        background-position: cover;
+        
+        
     }
 
 }
