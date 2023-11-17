@@ -1,9 +1,30 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Roboto:wght@300&display=swap");
+/* condicionales */
 body {
-  background-color: black;
-  font-size: 16px;
+  background-image: url("../assets/otoño.jpg");
+  background-position: cover;
+}
+body .texto {
+  color: black;
+  font-weight: bold;
+}
+body .clasep {
+  color: black;
+  font-weight: bold;
+}
+body ul .paises {
+  color: black;
+  font-weight: bold;
+}
+body li {
+  color: black;
 }
 
+/* body{
+  background-image: url(../assets/fondoblack.jpg);
+  font-size: 16px;
+} */
 /* LOGO DEL NAVBAR BOOTSTRAP*/
 .logo {
   cursor: pointer;
@@ -53,7 +74,7 @@ body {
 /* INDEX */
 /* LOGO PAGINA INICIO */
 .container-img .img-fluid {
-  margin-top: 78px;
+  margin-top: 85px;
   width: 800px;
 }
 
@@ -100,6 +121,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-weight: bold;
 }
 .clasep:hover {
   transform: scale(1.8);
@@ -131,7 +153,7 @@ ul .paises {
 }
 
 li {
-  color: lightgrey;
+  color: white;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -197,7 +219,7 @@ li {
   position: fixed;
   bottom: 0;
   width: 100%;
-  text-align: right;
+  text-align: center;
   height: 60px;
 }
 .footer-row {
@@ -230,9 +252,10 @@ li {
   margin-right: 10px;
 }
 .social-link a:hover {
-  background-color: white;
+  background-color: rgb(190, 0, 0);
   transform: scale(1.2);
   transition: all 0.5s;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

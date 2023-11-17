@@ -1,0 +1,57 @@
+$temporada:"otoño";
+
+/* condicionales */
+
+@if ($temporada == "verano"){
+    body{
+        background-image: url("../assets/verano.jpg");
+        background-size: cover;
+    .texto{
+        color: black;
+        font-weight: bold;
+    }
+    }
+
+}@else if($temporada =="otoño"){
+    body{
+        background-image: url("../assets/otoño.jpg");
+        background-position: cover;
+    .texto{
+            color: black;
+            font-weight: bold;
+        }  
+    .clasep{
+        color: black;
+        font-weight: bold;
+    }
+    ul .paises{
+        color: black;
+        font-weight: bold;
+    
+    }
+    li {
+        color: black;}
+    
+
+
+    }
+
+}@else if($temporada =="invierno"){
+    body{
+        background-image: url("../assets/invierno.jpg");
+        background-size: cover;
+    }
+
+}@else if($temporada =="primavera"){
+    body{
+        background-image: url("../assets/primavera.jpg");
+        background-size: cover;
+    }
+    
+}@else{
+    body{
+        background-image: url("../assets/fondoblack.jpg");
+        background-size: cover;
+    }
+
+}
