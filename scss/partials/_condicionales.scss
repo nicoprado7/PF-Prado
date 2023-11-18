@@ -5,7 +5,7 @@ $temporada:"";
 @if ($temporada == "verano"){
     body{
         background-image: url("../assets/verano.jpg");
-        background-position: cover;
+        background-size: cover;
     .texto{
         color: black;
         font-weight: bold;
@@ -30,21 +30,21 @@ $temporada:"";
         background-image: url("../assets/otoño.jpg");
         background-position: cover;
     .texto{
-            color: black;
+            color: white;
             font-weight: bold;
         }  
         
     .clasep{
-        color: black;
+        color: white;
         font-weight: bold;
     }
     ul .paises{
-        color: black;
+        color: white;
         font-weight: bold;
     
     }
     li {
-        color: black;}
+        color: white;}
     
 
 
@@ -75,7 +75,7 @@ $temporada:"";
 }@else if($temporada =="primavera"){
     body{
         background-image: url("../assets/primavera.jpg");
-        background-size: cover;
+        background-position: cover;
         .texto{
             color: white;
             font-weight: bold;
