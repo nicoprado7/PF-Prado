@@ -4,26 +4,46 @@ $temporada:"";
 
 @if ($temporada == "verano"){
     body{
-        background-image: url("../assets/verano.jpg");
-        background-size: cover;
+        background-image: url("../assets/verano2.jpg");
+        background-position: cover;
     .texto{
         color: black;
         font-weight: bold;
+        text-shadow: 2px 2px 4px white;
     }
     .clasep{
         color: black;
         font-weight: bold;
+        background-color: rgba(128, 128, 128, 0.418);
     }
     ul .paises{
         color: black;
         font-weight: bold;
+        
     
     }
     li {
-        color: black;}
-
-    
+        color: black;
     }
+
+    p{font-weight: bold;
+    color: black;}
+
+    .textoabajo{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 4px white;
+    }
+    
+    .text-center{
+        color: black;
+    }
+
+    .textos{
+        color: black;
+    }
+
+    }
+    
 
 }@else if($temporada =="otoño"){
     body{
@@ -32,11 +52,14 @@ $temporada:"";
     .texto{
             color: white;
             font-weight: bold;
+            text-shadow: 2px 2px 2px black;
         }  
         
+  
     .clasep{
         color: white;
         font-weight: bold;
+        background-color: rgba(128, 128, 128, 0.418);
     }
     ul .paises{
         color: white;
@@ -44,9 +67,12 @@ $temporada:"";
     
     }
     li {
-        color: white;}
+        color: white;
+    }
     
-
+        p{font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px black;}
 
     }
 
@@ -61,15 +87,31 @@ $temporada:"";
     .clasep{
         color: white;
         font-weight: bold;
+        text-shadow: 2px 2px 2px black;
+        background-color: rgba(128, 128, 128, 0.418);
     }
     ul .paises{
         color: white;
         font-weight: bold;
-    
-    }
+        text-shadow: 2px 2px 2px black;
+     }
+
     li {
-        color: white;}
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
     
+    p{
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+    }
+
+    .textoabajo{
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+
     }
 
 }@else if($temporada =="primavera"){
@@ -79,11 +121,13 @@ $temporada:"";
         .texto{
             color: white;
             font-weight: bold;
+            text-shadow: 2px 2px 4px black;
         }  
         
     .clasep{
         color: black;
         font-weight: bold;
+        background-color: rgba(128, 128, 128, 0.418);
     }
     ul .paises{
         color: black;
@@ -91,7 +135,15 @@ $temporada:"";
     
     }
     li {
-        color: black;}
+        color: black;
+    }
+
+    p{
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+    }
+
     }
     
 }@else{

@@ -11,14 +11,27 @@
 /* LOGO DEL NAVBAR BOOTSTRAP*/
 .logo {
     cursor: pointer;
+/* Animacion */
+animation: rotar 3s ease-in-out infinite;
 
     &:hover {
     transform: scale(1.2);
     transition: all 0.3s;
+
+
     }
 }
   
   /* NAVBAR  BOOTSTRAP*/
+  @keyframes rotar {
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+  }
+
 .nav-link button {
     background-color: red;
     margin-left: 20px;
@@ -60,7 +73,6 @@
 
 
   /* INDEX */
-/* LOGO PAGINA INICIO */
 .container-img .img-fluid {
     margin-top: 120px;
     width: 800px;
@@ -91,6 +103,7 @@
      background-color: rgba(0, 0, 0, 0);
      height: 200px;
      border-radius: 20px;
+     
     
     &:hover {
     transform: scale(1.1);
@@ -98,11 +111,26 @@
     }
 }
 
+
+
+.card:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+}
 h1 {
   color: white;
 }
 
+.fotos .card-img-top{
+    border-radius: 10px;
+    border-style: outset;
+    
+}
 
+.fotos:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
 
 
 
@@ -118,7 +146,7 @@ h1 {
     background-color: rgba(128, 0, 0, 0.63);
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
     &:hover {
         transform: scale(1.2);
@@ -134,11 +162,11 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
   
-  
+ 
      &:hover {
      transform: scale(1.8);
      transition: all 0.3s;
@@ -159,8 +187,8 @@ h1 {
     color: white;
     text-decoration: none;
     font-size: 12px;
-   align-items: center;
-   letter-spacing: 5px;
+    align-items: center;
+    letter-spacing: 5px;
   }
 
 
@@ -180,13 +208,14 @@ ul .paises {
     list-style-type: none;
   }
   
-  li {
+  li{
     color: white;
     text-align: center;
     list-style-type: none;
-    font-size: 20px;
-    letter-spacing: 10px;
+    font-size: 16px;
+    letter-spacing: 12px;
     font-weight: bold;
+    margin-bottom: 5px;
   }
   
 
@@ -209,9 +238,16 @@ ul .paises {
   }
   
   .card-body {
-    background-color: lightgrey;
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+    color: black;
   }
-  
+
+  .card-body:hover{
+    background-color: rgba(187, 0, 0, 0.87);
+    color: white;
+  }
+
   .card-text {
     text-align: justify;
   }
@@ -224,7 +260,7 @@ ul .paises {
     resize: none;
   }
   
-
+  p{color: white;}
   
   @media (max-width: 576px) {
     .card-text {
