@@ -75,6 +75,7 @@
     color: white;
     margin-bottom: 60px;
     margin-top: 30px;
+    line-height: 3.5;
   }
   
   h2 {
@@ -108,14 +109,16 @@ h1 {
 
 
 /* DISCOGRAFIA */
-h3 {
+h1 {
     color: white;
     margin-left: 20px;
+    margin-right:20px;
     text-shadow: 2px 2px 4px black;
     border-radius: 15px;
     background-color: rgba(128, 0, 0, 0.63);
-    width: 180px;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
 
     &:hover {
         transform: scale(1.2);
@@ -132,6 +135,8 @@ h3 {
     margin-right: auto;
     text-align: center;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
   
   
      &:hover {
@@ -150,10 +155,12 @@ h3 {
   .boton {
     border-radius: 15px;
     background-color: green;
-    padding: 5px 10px;
+    padding: 10px 5px 10px 10px;
     color: white;
     text-decoration: none;
     font-size: 12px;
+   align-items: center;
+   letter-spacing: 5px;
   }
 
 
@@ -175,14 +182,13 @@ ul .paises {
   
   li {
     color: white;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     list-style-type: none;
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-weight: bold;
   }
   
-
-
 
 
 
@@ -218,6 +224,8 @@ ul .paises {
     resize: none;
   }
   
+
+  
   @media (max-width: 576px) {
     .card-text {
       font-size: 0.8rem;
@@ -247,7 +255,7 @@ ul .paises {
 /* FOOTER */
 
 .footer{
-    background-color: grey;
+    background-color: rgb(94, 94, 94);
     padding: 0px;
     position:fixed;
     bottom: 0;
@@ -271,6 +279,7 @@ ul .paises {
     color: $color-primary;
     display: block;
     margin-bottom: 15px;
+    
     }
 }
 
@@ -278,19 +287,19 @@ ul .paises {
 display: inline-block;
 min-height: 1px;
 width: 50px;
-background-color: grey;
+background-color: rgba(219, 0, 0, 0.562);
 margin: 10 10px 10px 10;
 text-align: center;
 line-height: 40px;
 border-radius: 60%;
 border-style: solid;
-color: $color-primary;
+color: white;
 margin-right: 10px;
 
     &:hover{
     background-color: rgb(190, 0, 0);
     transform: scale(1.2);
     transition: all 0.5s;
-    color: white;
+    color: $color-primary;
     }
 }
