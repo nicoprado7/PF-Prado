@@ -7,17 +7,17 @@ body {
 
 
 /* LOGO DEL NAVBAR BOOTSTRAP*/
+
 .logo {
   cursor: pointer;
   /* Animacion */
-  animation: rotar 3s ease-in-out infinite;
+  animation: rotar 4s ease-in-out infinite;
 }
 .logo:hover {
   transform: scale(1.2);
   transition: all 0.3s;
 }
 
-/* NAVBAR  BOOTSTRAP*/
 @keyframes rotar {
   from {
     transform: rotatey(0deg);
@@ -26,6 +26,8 @@ body {
     transform: rotatey(360deg);
   }
 }
+
+/* NAVBAR  BOOTSTRAP*/
 .nav-link button {
   background-color: red;
   margin-left: 20px;
@@ -62,6 +64,8 @@ body {
   color: black;
 }
 
+
+
 /* INDEX */
 .container-img .img-fluid {
   margin-top: 120px;
@@ -83,6 +87,8 @@ body {
 h2 {
   color: white;
 }
+
+
 
 /* GALERIA */
 .card-body1 {
@@ -109,6 +115,8 @@ h2 {
   transform: scale(1.1);
   transition: all 0.3s;
 }
+
+
 
 /* DISCOGRAFIA */
 h1 {
@@ -145,8 +153,8 @@ h1:hover {
 
 iframe {
   margin-bottom: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   border-radius: 20px;
 }
 
@@ -160,6 +168,8 @@ iframe {
   align-items: center;
   letter-spacing: 5px;
 }
+
+
 
 /* TOUR */
 ul .paises {
@@ -179,6 +189,8 @@ li {
   font-weight: bold;
   margin-bottom: 5px;
 }
+
+
 
 /* SHOP */
 /* CARDS */
@@ -227,6 +239,10 @@ p {
     font-size: 0.8rem;
   }
 }
+
+
+
+
 /* CONTACTO */
 .textos {
   color: white;
@@ -242,6 +258,8 @@ p {
 .text-center {
   color: white;
 }
+
+
 
 /* FOOTER */
 .footer {
