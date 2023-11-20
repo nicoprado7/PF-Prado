@@ -7,39 +7,39 @@ $temporada:"";
         background-image: url("../assets/verano2.jpg");
         background-position: cover;
     .texto{
-        color: black;
+        color: $color-primary;
         font-weight: bold;
         text-shadow: 2px 2px 4px white;
     }
     .clasep{
-        color: black;
+        color: $color-primary;
         font-weight: bold;
         background-color: rgba(128, 128, 128, 0.418);
     }
     ul .paises{
-        color: black;
+        color: $color-primary;
         font-weight: bold;
         
     
     }
     li {
-        color: black;
+        color: $color-primary;
     }
 
     p{font-weight: bold;
-    color: black;}
+    color: $color-primary;}
 
     .textoabajo{
-        color: rgb(0, 0, 0);
+        color: $color-primary;
         text-shadow: 2px 2px 4px white;
     }
     
     .text-center{
-        color: black;
+        color: $color-primary;
     }
 
     .textos{
-        color: black;
+        color: $color-primary;
     }
 
     }
@@ -52,7 +52,7 @@ $temporada:"";
     .texto{
             color: white;
             font-weight: bold;
-            text-shadow: 2px 2px 2px black;
+            text-shadow: 2px 2px 2px $color-primary;
         }  
         
   
@@ -72,7 +72,7 @@ $temporada:"";
     
         p{font-weight: bold;
             color: white;
-            text-shadow: 2px 2px 4px black;}
+            text-shadow: 2px 2px 4px $color-primary;}
 
     }
 
@@ -81,35 +81,35 @@ $temporada:"";
         background-image: url("../assets/invierno.jpg");
         background-position: cover;
         .texto{
-          
             font-weight: bold;
+        
         }  
     .clasep{
         color: white;
         font-weight: bold;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 2px 2px 2px $color-primary;
         background-color: rgba(128, 128, 128, 0.418);
     }
     ul .paises{
         color: white;
         font-weight: bold;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 2px 2px 2px $color-primary;
      }
 
     li {
         color: white;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 2px 2px 2px $color-primary;
     }
     
     p{
         font-weight: bold;
         color: white;
-        text-shadow: 2px 2px 4px black;
+        text-shadow: 2px 2px 4px $color-primary;
     }
 
     .textoabajo{
         color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        text-shadow: 2px 2px 4px $color-primary;
     }
 
     }
@@ -121,27 +121,27 @@ $temporada:"";
         .texto{
             color: white;
             font-weight: bold;
-            text-shadow: 2px 2px 4px black;
+            text-shadow: 2px 2px 4px $color-primary;
         }  
         
     .clasep{
-        color: black;
+        color: $color-primary;
         font-weight: bold;
         background-color: rgba(128, 128, 128, 0.418);
     }
     ul .paises{
-        color: black;
+        color: $color-primary;
         font-weight: bold;
     
     }
     li {
-        color: black;
+        color: $color-primary;
     }
 
     p{
         font-weight: bold;
         color: white;
-        text-shadow: 2px 2px 4px black;
+        text-shadow: 2px 2px 4px $color-primary;
     }
 
     }
