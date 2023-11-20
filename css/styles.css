@@ -98,6 +98,12 @@ h2 {
   transition: all 0.3s;
 }
 
+.video{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .card:hover {
   background-color: rgb(255, 255, 255);
   transition: all 1s;
@@ -182,6 +188,10 @@ li {
   margin-bottom: 5px;
 }
 
+.videotour{
+  margin-bottom: 80px;
+}
+
 /* SHOP */
 /* CARDS */
 .text-justify {
@@ -229,6 +239,13 @@ p {
     font-size: 0.8rem;
   }
 }
+
+.img-fluid{
+  border-radius: 25px;
+}
+
+
+
 /* CONTACTO */
 .textos {
   color: white;
