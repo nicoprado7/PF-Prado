@@ -70,13 +70,14 @@ body {
 .col-5 .img-fluid {
   margin-bottom: 30px;
   margin-left: 115px;
+  margin-top: 30px;
 }
 
 .texto {
   color: white;
   margin-bottom: 60px;
   margin-top: 20px;
-  line-height: 3.5;
+  line-height: 3;
 }
 
 h2 {
@@ -119,6 +120,7 @@ h2 {
   transition: all 0.3s;
 }
 
+
 /* DISCOGRAFIA */
 h1 {
   color: white;
@@ -139,7 +141,7 @@ h1:hover {
   color: rgb(190, 0, 0);
   cursor: pointer;
   border: 1px solid;
-  width: 40%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -154,20 +156,9 @@ h1:hover {
 
 iframe {
   margin-bottom: 100px;
-  margin-left: 75px;
   border-radius: 20px;
 }
 
-.boton {
-  border-radius: 15px;
-  background-color: green;
-  padding: 10px 5px 10px 10px;
-  color: white;
-  text-decoration: none;
-  font-size: 12px;
-  align-items: center;
-  letter-spacing: 5px;
-}
 
 /* TOUR */
 ul .paises {
@@ -190,6 +181,17 @@ li {
 
 .videotour{
   margin-bottom: 80px;
+}
+
+.boton {
+  border-radius: 15px;
+  background-color: green;
+  padding: 10px 5px 10px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  align-items: center;
+  letter-spacing: 5px;
 }
 
 /* SHOP */
