@@ -113,6 +113,9 @@ h2 {
   transition: all 0.3s;
 }
 
+
+
+
 /* DISCOGRAFIA */
 h1 {
   color: white;
@@ -149,7 +152,6 @@ h1:hover {
 
 iframe {
   margin-bottom: 100px;
-  margin-left: 75px;
   border-radius: 20px;
 }
 
