@@ -227,12 +227,12 @@ ul .paises {
     background-color: rgb(211, 211, 211);
     border-radius: 15px;
     color: black;
-  }
-
-  .card-body:hover{
+  
+    &:hover{
     background-color: rgba(187, 0, 0, 0.87);
     color: white;
   }
+}
 
   .card-text {
     text-align: justify;
@@ -246,9 +246,11 @@ ul .paises {
     resize: none;
   }
   
-  p{color: white;}
+  p{
+    color: white;
+  }
   
-  @media (max-width: 576px) {
+  @media (max-width: 576px){
     .card-text {
       font-size: 0.8rem;
     }

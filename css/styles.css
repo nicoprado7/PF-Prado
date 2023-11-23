@@ -70,14 +70,13 @@ body {
 .col-5 .img-fluid {
   margin-bottom: 30px;
   margin-left: 115px;
-  margin-top: 30px;
 }
 
 .texto {
   color: white;
   margin-bottom: 60px;
   margin-top: 20px;
-  line-height: 3;
+  line-height: 3.5;
 }
 
 h2 {
@@ -99,12 +98,6 @@ h2 {
   transition: all 0.3s;
 }
 
-.video{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 .card:hover {
   background-color: rgb(255, 255, 255);
   transition: all 1s;
@@ -119,7 +112,6 @@ h2 {
   transform: scale(1.1);
   transition: all 0.3s;
 }
-
 
 /* DISCOGRAFIA */
 h1 {
@@ -141,14 +133,13 @@ h1:hover {
   color: rgb(190, 0, 0);
   cursor: pointer;
   border: 1px solid;
-  width: 50%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 15px;
   font-size: 16px;
-  background-color: rgba(0, 0, 0, 0.781);
 }
 .clasep:hover {
   transform: scale(1.8);
@@ -157,9 +148,20 @@ h1:hover {
 
 iframe {
   margin-bottom: 100px;
+  margin-left: 75px;
   border-radius: 20px;
 }
 
+.boton {
+  border-radius: 15px;
+  background-color: green;
+  padding: 10px 5px 10px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  align-items: center;
+  letter-spacing: 5px;
+}
 
 /* TOUR */
 ul .paises {
@@ -178,21 +180,6 @@ li {
   letter-spacing: 12px;
   font-weight: bold;
   margin-bottom: 5px;
-}
-
-.videotour{
-  margin-bottom: 80px;
-}
-
-.boton {
-  border-radius: 15px;
-  background-color: green;
-  padding: 10px 5px 10px 10px;
-  color: white;
-  text-decoration: none;
-  font-size: 12px;
-  align-items: center;
-  letter-spacing: 5px;
 }
 
 /* SHOP */
@@ -215,7 +202,6 @@ li {
   border-radius: 15px;
   color: black;
 }
-
 .card-body:hover {
   background-color: rgba(187, 0, 0, 0.87);
   color: white;
@@ -242,10 +228,6 @@ p {
     font-size: 0.8rem;
   }
 }
-
-
-
-
 /* CONTACTO */
 .textos {
   color: white;
