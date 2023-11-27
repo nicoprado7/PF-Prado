@@ -178,9 +178,13 @@ iframe {
   border-radius: 20px;
 }
 
+
+
+/* TOUR */
+
 .boton {
   border-radius: 15px;
-  background-color: green;
+  background-color: rgba(6, 255, 19, 0.459);
   padding: 10px 5px 10px 10px;
   color: white;
   text-decoration: none;
@@ -189,13 +193,38 @@ iframe {
   letter-spacing: 5px;
 }
 
-/* TOUR */
+ul{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 ul .paises {
-  color: rgb(190, 0, 0);
+  color: white;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   list-style-type: none;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 12px;
+  color: #fff;
+  /* Establece el grosor y el color del trazo del texto */
+  -webkit-text-stroke: 1px rgb(190, 0, 0);
+  /* Agrega sombra al texto para crear el efecto de neón */
+  text-shadow: 0 0 10px rgb(190, 0, 0), 0 0 20px rgb(190, 0, 0), 0 0 30px rgb(190, 0, 0);
+}
+
+ul .paises:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  /* Agrega sombra al texto para crear el efecto de neón */
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
 }
 
 li {
@@ -203,7 +232,7 @@ li {
   text-align: center;
   list-style-type: none;
   font-size: 16px;
-  letter-spacing: 12px;
+  letter-spacing: 8px;
   font-weight: bold;
   margin-bottom: 5px;
 }
