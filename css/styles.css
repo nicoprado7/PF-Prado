@@ -211,19 +211,14 @@ ul .paises {
   list-style-type: none;
   font-weight: bold;
   cursor: pointer;
-  letter-spacing: 12px;
+  letter-spacing: 10px;
   color: #fff;
-  /* Establece el grosor y el color del trazo del texto */
-  -webkit-text-stroke: 1px rgb(190, 0, 0);
-  /* Agrega sombra al texto para crear el efecto de neón */
-  text-shadow: 0 0 10px rgb(190, 0, 0), 0 0 20px rgb(190, 0, 0), 0 0 30px rgb(190, 0, 0);
 }
 
 ul .paises:hover {
   transform: scale(1.1);
   transition: all 0.3s;
   -webkit-text-stroke: 1px rgb(255, 255, 255);
-  /* Agrega sombra al texto para crear el efecto de neón */
   text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
 }
 
