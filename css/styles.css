@@ -203,6 +203,13 @@ ul{
   margin-right: 20px;
 }
 
+@media screen and (min-width: 801px) {
+ul .paises {
+      width: 60%;
+  }
+}
+
+
 ul .paises {
   color: white;
   margin-left: auto;
