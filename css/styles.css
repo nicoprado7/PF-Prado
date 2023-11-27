@@ -132,22 +132,45 @@ h1:hover {
   transition: all 0.5s;
 }
 
+
+
+
+.lista {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .clasep {
   color: rgb(190, 0, 0);
   cursor: pointer;
-  border: 1px solid;
-  width: 40%;
+  border: 2px solid;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   margin-top: 20px;
   margin-bottom: 15px;
   font-size: 16px;
   background-color: rgba(0, 0, 0, 0.548);
+  list-style: none;
 }
+
+
+/* Estilos para pantallas más grandes que 801 px */
+      @media screen and (min-width: 801px) {
+        .clasep {
+            width: 60%;
+        }
+      }
+
+     
 .clasep:hover {
-  transform: scale(1.8);
+  transform: scale(1.1);
   transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.801);
 }
 
 iframe {
