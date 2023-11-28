@@ -106,6 +106,7 @@ h2 {
 .fotos .card-img-top {
   border-radius: 10px;
   border-style: outset;
+  cursor: pointer;
 }
 
 .fotos:hover {
